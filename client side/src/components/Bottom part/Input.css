@@ -1,0 +1,72 @@
+.InPut{
+    padding: 10px;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    
+}
+
+.Button{
+    width: fit-content;
+    
+    background-color: yellowgreen;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: medium;
+    margin-right: 5px;
+}
+.Btn{
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+}
+.list{
+   
+    width: 100%;
+    display: block;
+    overflow: auto;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+   
+   
+}
+.showData{
+   
+    height: 350px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-right: auto;
+    overflow: auto;
+    padding-left: 10px;
+   
+}
+ul{
+    padding: 0;
+    margin: 0px;
+}
+@media (max-width:420px) {
+    .showData{
+        width: 100%;
+        height: 380px;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        color: white;
+        overflow: auto;
+      
+    }
+    
+}
